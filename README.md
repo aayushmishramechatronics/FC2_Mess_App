@@ -3,8 +3,7 @@
 Under Development
 ```
 
-## Credits for Idea and API Docs 
-
+## Credits for Idea and API Docs - Aadit Agrawal
 ```
-@aaditagrawal
+https://github.com/aaditagrawal/fc-menu
 ```
