@@ -2,3 +2,9 @@
 ```
 Under Development
 ```
+
+## Credits for Idea and API Docs 
+
+```
+@aaditagrawal
+```
