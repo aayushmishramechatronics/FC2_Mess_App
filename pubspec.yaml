@@ -1,0 +1,65 @@
+name: fc_menu
+description: Food Court 2 Menu — The Indian Kitchen (Flutter version)
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management
+  provider: ^6.0.5
+
+  # HTTP requests
+  http: ^1.2.1
+
+  # Utilities
+  collection: ^1.18.0
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+  # Icons & splash
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo.png
+    - assets/images/placeholder_meal.png
+    - assets/images/no_data.png
+    - assets/icons/app_icon.png
+
+# --------------------------
+# Launcher Icons Config
+# --------------------------
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+
+# --------------------------
+# Native Splash Config
+# --------------------------
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/logo.png
+  android: true
+  ios: true
+  web: true
+
+  color_dark: "#121212"
+  image_dark: assets/images/logo.png
+
+  android_12:
+    image: assets/images/logo.png
+    icon_background_color: "#ffffff"
